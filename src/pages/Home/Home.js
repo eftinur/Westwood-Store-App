@@ -10,13 +10,10 @@ import Products from "../../components/Products/Products";
 const Home = () => {
   return (
     <div>
-      <Announcement />
-      <Header />
       <Hero />
       <Categories />
       <Products />
       <Newsletter />
-      <Footer />
     </div>
   );
 };

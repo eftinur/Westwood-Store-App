@@ -1,6 +1,7 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
 import { HiOutlineShoppingCart } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,12 +22,16 @@ const Header = () => {
       </div>
       <div className="flex-1">
         <ul className="flex justify-end items-center gap-5 uppercase">
-          <li>Home</li>
-          <li>Register</li>
-          <li>Sign-in</li>
+          <li><Link to="/">Home</Link></li>
+          <li>
+            <Link to="/register">Register</Link>
+          </li>
+          <li><Link to="/signin">Sign-in</Link></li>
           <div className="relative">
-            <HiOutlineShoppingCart size={30}/>
-            <span className="bg-[#d02027] w-5 h-5 rounded-full text-white text-center absolute -top-2 -right-1"><p>5</p></span>
+            <HiOutlineShoppingCart size={30} />
+            <span className="bg-[#d02027] w-5 h-5 rounded-full text-white text-center absolute -top-2 -right-1">
+              <p>5</p>
+            </span>
           </div>
         </ul>
       </div>

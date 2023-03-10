@@ -6,9 +6,8 @@ const Footer = () => {
     <div className="footer max-w-[1320px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-800">
       <div className="lg:col-span-2">
         <h1 className="text-2xl italic">Westwood <br /> Store</h1>
-        <p className="py-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sequi
-          quidem exercitationem soluta est minima beatae mollitia recusandae?
+        <p className="py-4 pr-40">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem facere explicabo fuga velit soluta, minus enim, quis quisquam provident officiis quas quia, dolore sed quos? Fugiat alias praesentium saepe voluptates dignissimos atque laborum suscipit necessitatibus quas, quia quos fuga similique officia dolores libero iure architecto eum nihil quis quasi.
         </p>
         <div className="flex justify-between items-center my-6 w-[20%]">
           <FaFacebook size={25} />
