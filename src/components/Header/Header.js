@@ -17,22 +17,30 @@ const Header = () => {
           <BsSearch size={25} />
         </div>
       </div>
-      <div className="flex-1 font-baloo text-3xl font-medium text-center text-[#d02027] italic leading-7">
+      <div className="flex-1 font-baloo text-3xl font-medium text-center text-[#FF556B] leading-7">
         Westwood <br /> Store
       </div>
       <div className="flex-1">
         <ul className="flex justify-end items-center gap-5 uppercase">
-          <li><Link to="/">Home</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
           <li>
             <Link to="/register">Register</Link>
           </li>
-          <li><Link to="/signin">Sign-in</Link></li>
-          <div className="relative">
-            <HiOutlineShoppingCart size={30} />
-            <span className="bg-[#d02027] w-5 h-5 rounded-full text-white text-center absolute -top-2 -right-1">
-              <p>5</p>
-            </span>
-          </div>
+          <li>
+            <Link to="/signin">Sign-in</Link>
+          </li>
+          <li>
+            <Link to="/cart">
+              <div className="relative">
+                <HiOutlineShoppingCart size={30} />
+                <span className="bg-[#FF556B] w-5 h-5 rounded-full text-white text-center absolute -top-2 -right-1">
+                  <p>5</p>
+                </span>
+              </div>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

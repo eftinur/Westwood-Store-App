@@ -18,7 +18,7 @@ const Hero = () => {
   };
   return (
     <section className="w-full relative">
-      <div className="bg-[#282828] w-full h-[899px] absolute top-0 left-0 z-10 bg-opacity-50"></div>
+      <div className="bg-[#282828] w-full h-[899px] absolute top-0 left-0 z-10 bg-opacity-30"></div>
       <div className="">
         <Slider {...settings}>
           <img

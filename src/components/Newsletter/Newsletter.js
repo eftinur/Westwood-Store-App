@@ -3,9 +3,9 @@ import { CiMail } from "react-icons/ci";
 
 const Newsletter = () => {
   return (
-    <section className="bg-[#282828] px-3 py-12">
+    <section className="bg-[#3e3e3e] px-3 py-12">
       <div className="max-w-[1320px] mx-auto  flex flex-col justify-center items-center text-white">
-        <h2 className="text-3xl text-[#d02027] uppercase font-medium tracking-widest">
+        <h2 className="text-3xl text-[#FF556B] uppercase font-medium tracking-widest">
           Newsletter
         </h2>
         <p className="mt-4 mb-8 font-light">

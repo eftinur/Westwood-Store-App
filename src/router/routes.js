@@ -1,9 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-import Register from "../components/Register/Register";
-import SignIn from "../components/SignIn/SignIn";
-import SingleCategory from "../components/SingleCategory/SingleCategory";
+import Register from "../pages/Register/Register";
+import SignIn from "../pages/SignIn/SignIn";
 import Main from "../layout/Main";
+import CategoryPage from "../pages/CategoryPage/CategoryPage";
 import Home from "../pages/Home/Home";
+import ProductPage from "../pages/ProductPage/ProductPage";
+import CartPage from "../pages/CartPage/CartPage";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/categories",
-        element: <SingleCategory />
+        element: <CategoryPage />
+      },
+      {
+        path: "/product",
+        element: <ProductPage />
+      },
+      {
+        path: "/cart",
+        element: <CartPage />
       },
       {
         path: "/register",
